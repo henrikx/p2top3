@@ -3,6 +3,9 @@
 This program will help you converting a DJI Phantom 2 Vision log file to a Phantom 3 Professional log file. The purpose of this
 is to trick HealthyDrones.com to read the file, even if Phantom 2 logs are not supported
 
+# System requirements
+* .NET Framework 4.6 or higher. (Should already be installer
+If not you can download it here: https://www.microsoft.com/en-us/download/details.aspx?id=49982)
 # Downloads
 https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
 
