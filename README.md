@@ -4,7 +4,7 @@ This program will help you converting a DJI Phantom 2 Vision log file to a Phant
 is to trick HealthyDrones.com to read the file, even if Phantom 2 logs are not supported
 
 # Downloads
-
+https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
 
 # Todo
 * Fix bugs
