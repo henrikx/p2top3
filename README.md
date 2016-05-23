@@ -4,7 +4,7 @@ This program will help you converting a DJI Phantom 2 Vision log file to a Phant
 is to trick HealthyDrones.com to read the file, even if Phantom 2 logs are not supported
 
 # System requirements
-* .NET Framework 4.6 or higher. (Should already be installed
+* .NET Framework 4.6 or higher. (Should already be installed.
 If not you can download it here: https://www.microsoft.com/en-us/download/details.aspx?id=49982)
 
 # Downloads
