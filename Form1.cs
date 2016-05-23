@@ -34,7 +34,7 @@ namespace P2_to_P3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bool debug = true;
+            bool debug = false; //Ignore file already converted.
             string csv = File.ReadAllText(textBox1.Text);
             if (debug == !true)
             {
