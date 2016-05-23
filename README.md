@@ -30,7 +30,7 @@ https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
 
 # Todo
 * Fix bugs
-* You tell me!
+* Automatic upload to HealthyDrones.com
 
 # Bugs
 * Specifying an incorrect file path crashes the program
