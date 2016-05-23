@@ -19,7 +19,6 @@ https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
   - Serial numbers (can be modified in CSV to be correct if you want to go through the effort, but it's not very useful)
   - Wrong battery type detected
 * Incorrect reading of drone type (obviously)
-* Notifications (confirm?)
 * Sensors
   - Signal map not working
   - Signal score not working
