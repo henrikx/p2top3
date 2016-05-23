@@ -35,6 +35,5 @@ http://puu.sh/p2vPd/60c15efb8c.png
 * Automatic upload to HealthyDrones.com
 
 # Bugs
-* Specifying an incorrect file path crashes the program
-* Converting an already converted log will make the log unreadable by HealthyDrones.com
+* Specifying an incorrect file throws exception.
 * You tell me!
