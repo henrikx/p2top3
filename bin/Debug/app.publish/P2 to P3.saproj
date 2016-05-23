@@ -1,17 +1,19 @@
 <SmartAssemblyProject ProjectId="{b675f086-3691-4c77-9dd3-c2c2f7ae3fa4}" Version="2.0">
     <MainAssemblyFileName>.\P2 to P3.exe</MainAssemblyFileName>
+    <FriendlyName>P2 to P3</FriendlyName>
+    <CompanyName>Henrik Takset</CompanyName>
     <Configuration Name="Release">
         <Options>
-            <ExceptionReporting Template="res:{SmartExceptions}.1033.dll" />
+            <ExceptionReporting ReportExceptions="0" Template="res:{SmartExceptions}.1033.dll" UseCustomTemplate="0" />
             <FeatureUsageReporting Template="res:SmartUsageWithUIConsentFirstRun1033.dll" />
             <StringsEncoding />
-            <StrongNameSigning />
+            <StrongNameSigning Sign="1" TamperProtect="0" />
             <OtherOptimizations />
             <Obfuscation FieldsNameMangling="2" NameMangling="3" />
             <OtherProtections />
             <Debugging />
         </Options>
-        <ApplicationName />
+        <ApplicationName>P2 to P3</ApplicationName>
         <Destination DestinationFileName="..\..\..\..\..\..\..\..\Desktop\t\P2 to P3.exe" />
         <Assemblies>
             <Assembly AssemblyName="P2 to P3, Culture=neutral, PublicKeyToken=null">
