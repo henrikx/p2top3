@@ -7,5 +7,8 @@ C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debu
 C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.csproj.GenerateResource.Cache
 C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.exe
 C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.pdb
-C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\bin\Debug\ChilkatDotNet46.dll
 C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.TrustInfo.xml
+C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\bin\Debug\P2 to P3.exe.manifest
+C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\bin\Debug\P2 to P3.application
+C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.exe.manifest
+C:\Users\Henrik\documents\visual studio 2015\Projects\P2 to P3\P2 to P3\obj\Debug\P2 to P3.application

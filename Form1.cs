@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+using System.Globalization;
 
 namespace P2_to_P3
 {
@@ -34,8 +34,25 @@ namespace P2_to_P3
 
         private void button2_Click(object sender, EventArgs e)
         {
+            bool debug = true;
             string csv = File.ReadAllText(textBox1.Text);
-            csv = csv.Replace("GPS", "P-GPS");
+            if (debug == !true)
+            {
+                if (!csv.Contains("P-GPS"))
+                {
+                    csv = csv.Replace("GPS", "P-GPS");
+                }
+                else
+                {
+                    MessageBox.Show("This log has already been converted");
+                    goto End;
+                }
+            }
+            else
+            {
+                csv = csv.Replace("GPS", "P-GPS");
+            }
+
             File.WriteAllText(textBox1.Text, csv);
             Chilkat.Csv chcsv = new Chilkat.Csv();
 
@@ -50,11 +67,20 @@ namespace P2_to_P3
             for (int i = 1; i <= lineCount-1; i++)
             {
                 bool setcelltest = chcsv.SetCell(i, 50, "4");
+                string gettemp = chcsv.GetCell(i, 33);
+                string tempout = gettemp.Replace(',', '.');
+                double tempoutout = double.Parse(tempout, CultureInfo.InvariantCulture);
+                double kelvintemp = tempoutout*10 + 2732;
+                double kelvindone = kelvintemp - 0.5;
+                string kelvinstring = Convert.ToString(kelvindone);
+                string kelvincomplete = kelvinstring.Replace(",", ".");
+                bool settemptest = chcsv.SetCell(i, 33, kelvincomplete);
                 progressBar1.Value = i;
             }
             chcsv.SetCell(1, 52, textBox2.Text);
             MessageBox.Show("Done converting! Upload to HealthyDrones and enjoy!");
             bool savetest = chcsv.SaveFile(textBox1.Text);
+        End:;
         }
     }
 }
