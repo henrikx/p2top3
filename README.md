@@ -8,6 +8,9 @@ is to trick HealthyDrones.com to read the file, even if Phantom 2 logs are not s
 If not you can download it here: https://www.microsoft.com/en-us/download/details.aspx?id=49982)
 
 # Downloads
+Installer version:
+https://github.com/henrikx/p2top3/raw/master/bin/Release/p2top3.exe
+Portable version (might not work on all computers):
 https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
 
 # Images
