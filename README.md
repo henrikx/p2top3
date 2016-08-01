@@ -6,7 +6,7 @@ is to trick HealthyDrones.com to read the file, even if Phantom 2 logs are not s
 # System requirements
 * .NET Framework 4.6 or higher. (Should already be installed.
 If not you can download it here: https://www.microsoft.com/en-us/download/details.aspx?id=49982)
-* If you get a could not find Chilkat error download this https://www.microsoft.com/en-us/download/confirmation.aspx?id=40784&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
+* If you get a could not find Chilkat download the 32 but version of https://www.microsoft.com/en-hk/download/details.aspx?id=40784
 
 # Downloads
 https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
