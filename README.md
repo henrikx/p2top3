@@ -9,7 +9,7 @@ If not you can download it here: https://www.microsoft.com/en-us/download/detail
 * If you get a "Could not find Chilkat" error, please download the 32 bit version of https://www.microsoft.com/en-hk/download/details.aspx?id=40784
 
 # Downloads
-https://github.com/henrikx/p2top3/raw/master/bin/Release/P2%20to%20P3.exe
+https://github.com/henrikx/p2top3/releases
 
 # Images
 http://puu.sh/p2vPd/60c15efb8c.png
